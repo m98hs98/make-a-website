@@ -1,3 +1,12 @@
+@media only screen and (min-width: 1209px) {
+  .fname-lname {
+    height: auto;
+    font-style: italic;
+    margin: 100px;
+    font-size: 50px;
+  }
+}
+
 body {
   /*background: linear-gradient(rgb(247, 191, 200), deeppink);*/
   background-color: rgb(247, 191, 200);
@@ -8,15 +17,6 @@ body {
   display: flex;
   justify-content: center;
   /*align-items: flex-end;*/
-}
-
-@media only screen and (min-width: 1209px) {
-  .fname-lname {
-    height: auto;
-    font-style: italic;
-    margin: 100px;
-    font-size: 50px;
-  }
 }
 
 .fname-lname {
@@ -47,8 +47,15 @@ body {
 .social-network3,
 .social-network4,
 .social-network5 {
-  min-height: 40px;
-  padding: 30px;
+  /*min-height: 40px;*/
+  padding: 20px;
+  border: 1px solid deeppink;
+  border-radius: 15%;
+  align-content: center;
+  margin: 0px 20px;
+  background-color: deeppink;
+  box-shadow: 10px 5px 5px rgb(155, 13, 88);
+  font-weight: bold;
 }
 
 .nav-links {
@@ -57,5 +64,8 @@ body {
 
 .contact-mahsa,
 .visit-site {
-  padding: 5px;
+  padding: 15px;
+  border: 1px solid deeppink;
+  border-radius: 15%;
+  margin: 15px;
 }
