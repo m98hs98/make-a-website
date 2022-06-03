@@ -1,0 +1,61 @@
+body {
+  /*background: linear-gradient(rgb(247, 191, 200), deeppink);*/
+  background-color: rgb(247, 191, 200);
+}
+.container {
+  padding: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /*align-items: flex-end;*/
+}
+
+@media only screen and (min-width: 1209px) {
+  .fname-lname {
+    height: auto;
+    font-style: italic;
+    margin: 100px;
+    font-size: 50px;
+  }
+}
+
+.fname-lname {
+  /*border-radius: 25%;*/
+  /*border: 2px solid deeppink;*/
+  /*width: 150px;*/
+  height: auto;
+  font-style: italic;
+  margin: 100px;
+  font-size: 150px;
+}
+
+#explanation {
+  font-size: 40px;
+}
+
+#social {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 50px;
+  padding: 30px;
+  margin-top: 60px;
+}
+
+.social-network1,
+.social-network2,
+.social-network3,
+.social-network4,
+.social-network5 {
+  min-height: 40px;
+  padding: 30px;
+}
+
+.nav-links {
+  float: bottom;
+}
+
+.contact-mahsa,
+.visit-site {
+  padding: 5px;
+}
